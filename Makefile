@@ -55,6 +55,7 @@ CSTD		?= -std=c99
 # Source files
 
 OBJS		+= $(SRC_DIR)/$(BINARY).o
+OBJS		+= $(SRC_DIR)/base/system.o
 
 ###############################################################################
 # C flags
